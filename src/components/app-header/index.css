@@ -13,7 +13,7 @@ h1 {
   color: var(--base-color);
 }
 
-h1 > a {
+.title {
   text-decoration: none;
 }
 

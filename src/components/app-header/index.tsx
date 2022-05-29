@@ -6,7 +6,9 @@ export class _ {
     return (
       <header>
         <h1>
-          <a href="/">Pen programming language</a>
+          <stencil-route-link anchorClass="title" url="/">
+            Pen programming language
+          </stencil-route-link>
         </h1>
         <div class="links">
           <a href="https://doc.pen-lang.org">Documentation</a>
