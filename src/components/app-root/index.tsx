@@ -6,12 +6,12 @@ export class _ {
     return (
       <div>
         <header>
-          <h1>Stencil App Starter</h1>
+          <h1>Pen programming language</h1>
         </header>
         <main>
           <stencil-router>
-            <stencil-route-switch scrollTopOffset={0}>
-              <stencil-route url="/" component="app-home" exact={true} />
+            <stencil-route-switch>
+              <stencil-route url="/" exact={true} component="app-home" />
             </stencil-route-switch>
           </stencil-router>
         </main>

@@ -1,15 +1,13 @@
 header {
-  background: #5851ff;
-  color: white;
-  height: 56px;
+  background: var(--base-color);
+  padding: 1rem;
   display: flex;
   align-items: center;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: var(--shadow);
 }
 
 h1 {
-  font-size: 1.4rem;
-  font-weight: 500;
-  color: #fff;
+  font-size: 1.5rem;
+  color: var(--white);
   padding: 0 12px;
 }
