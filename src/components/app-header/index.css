@@ -1,5 +1,5 @@
 header {
-  background: var(--base-color);
+  background: var(--secondary-color);
   padding: 1.5rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -10,18 +10,22 @@ header {
 h1 {
   margin: 0px;
   font-size: 1.5rem;
-  color: var(--white);
+  color: var(--base-color);
+}
+
+h1 > a {
+  text-decoration: none;
+}
+
+a {
+  color: var(--base-color);
+
+  :visited {
+    color: var(--base-color);
+  }
 }
 
 .links {
   display: flex;
   gap: 1rem;
-}
-
-a {
-  color: var(--white);
-
-  :visited {
-    color: var(--white);
-  }
 }
