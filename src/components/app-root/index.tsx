@@ -1,6 +1,6 @@
 import { Component, h } from "@stencil/core";
 
-@Component({ tag: "app-root", styleUrl: "index.css", shadow: true })
+@Component({ tag: "app-root", shadow: true })
 export class _ {
   render() {
     return (
