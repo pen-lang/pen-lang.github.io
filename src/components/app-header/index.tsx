@@ -11,7 +11,7 @@ export class _ {
           </stencil-route-link>
         </h1>
         <div class="links">
-          <a href="https://doc.pen-lang.org">Documentation</a>
+          <a href="https://pen-lang.org">Documentation</a>
         </div>
       </header>
     );
