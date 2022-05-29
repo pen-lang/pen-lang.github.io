@@ -1,11 +1,7 @@
 import { Component, h } from "@stencil/core";
 
-@Component({
-  tag: "app-home",
-  styleUrl: "style.css",
-  shadow: true,
-})
-export class AppHome {
+@Component({ tag: "app-home", styleUrl: "index.css", shadow: true })
+export class _ {
   render() {
     return (
       <div class="app-home">
@@ -14,7 +10,6 @@ export class AppHome {
           entire apps all with web components using Stencil! Check out our docs
           on <a href="https://stenciljs.com">stenciljs.com</a> to get started.
         </p>
-
         <stencil-route-link url="/profile/stencil">
           <button>Profile page</button>
         </stencil-route-link>
