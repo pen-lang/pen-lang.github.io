@@ -17,4 +17,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: streetsidesoftware/cspell-action@main
         with:
-          files: "**/*.{css,html,md,ts,tsx}"
+          files: "**/*.{css,html,md,sh,ts,tsx}"
