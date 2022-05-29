@@ -5,9 +5,7 @@ export class _ {
   render() {
     return (
       <div>
-        <header>
-          <h1>Pen programming language</h1>
-        </header>
+        <app-header />
         <main>
           <stencil-router>
             <stencil-route-switch>

@@ -1,0 +1,13 @@
+header {
+  background: var(--base-color);
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: var(--shadow);
+}
+
+h1 {
+  margin: 0px;
+  font-size: 1.5rem;
+  color: var(--white);
+}
