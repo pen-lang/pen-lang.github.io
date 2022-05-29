@@ -13,8 +13,8 @@
     "@stencil/core": "2.15.2",
     "@stencil/router": "^1.0.1",
     "@types/jest": "^27.0.3",
-    "jest": "^27.4.5",
+    "jest": "^28.1.0",
     "jest-cli": "^27.4.5",
-    "puppeteer": "^10.0.0"
+    "puppeteer": "^14.1.1"
   }
 }
