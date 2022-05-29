@@ -5,7 +5,7 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "icon.svg",
+      "src": "assets/icon.svg",
       "sizes": "any",
       "type": "image/svg"
     }
