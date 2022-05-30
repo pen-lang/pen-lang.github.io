@@ -5,9 +5,9 @@ export class _ {
   render() {
     return (
       <div>
-        <h2>
+        <h1>
           Pen is the programming language for <b>scalable</b> development
-        </h2>
+        </h1>
       </div>
     );
   }

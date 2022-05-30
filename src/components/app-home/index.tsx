@@ -5,7 +5,7 @@ export class _ {
   render() {
     return (
       <div class="container">
-        <p>Hello, world!</p>
+        <app-poster />
       </div>
     );
   }

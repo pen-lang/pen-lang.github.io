@@ -1,12 +1,3 @@
-header {
-  background: var(--secondary-color);
-  padding: 1.5rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: var(--shadow);
-}
-
 h1 {
   margin: 0px;
   font-size: 1.5rem;
@@ -15,17 +6,4 @@ h1 {
 
 .title {
   text-decoration: none;
-}
-
-a {
-  color: var(--base-color);
-
-  :visited {
-    color: var(--base-color);
-  }
-}
-
-.links {
-  display: flex;
-  gap: 1rem;
 }
