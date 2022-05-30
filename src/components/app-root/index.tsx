@@ -1,17 +1,24 @@
-import { Component, h } from "@stencil/core";
+import { Component, Element, h } from "@stencil/core";
+import { Router } from "@vaadin/router";
 
 @Component({ tag: "app-root", shadow: true })
 export class _ {
+  @Element() element!: HTMLElement;
+
+  componentDidLoad() {
+    console.log(this.element);
+    new Router(this.element.shadowRoot?.querySelector("#router")).setRoutes([
+      { path: "/", component: "app-home" },
+      { path: "(.*)", component: "app-not-found" },
+    ]);
+  }
+
   render() {
     return (
       <div>
         <app-header />
         <main>
-          <stencil-router>
-            <stencil-route-switch>
-              <stencil-route url="/" exact={true} component="app-home" />
-            </stencil-route-switch>
-          </stencil-router>
+          <div id="router" />
         </main>
       </div>
     );
