@@ -29,7 +29,7 @@ export class _ {
       <div class="container">
         <div>
           <h1>
-            Pen is the programming language for <b>scalable</b> development
+            The programming language for <b>scalable</b> development
           </h1>
         </div>
         <div>
