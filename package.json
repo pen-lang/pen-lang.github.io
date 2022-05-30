@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@stencil/core": "2.15.2",
-    "@stencil/router": "^1.0.1",
     "@types/jest": "^27.0.3",
+    "@vaadin/router": "^1.7.4",
     "jest": "^28.1.0",
     "jest-cli": "^28.1.0",
     "puppeteer": "^14.1.1"

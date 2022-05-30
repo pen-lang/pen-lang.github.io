@@ -1,6 +1,6 @@
 import { Component, h } from "@stencil/core";
 
-@Component({ tag: "app-header", styleUrl: "index.css", shadow: true })
+@Component({ tag: "x-header", styleUrl: "index.css", shadow: true })
 export class _ {
   render() {
     return (
@@ -12,6 +12,12 @@ export class _ {
         </h1>
         <div class="links">
           <a href="https://pen-lang.org">Documentation</a>
+          <a href="https://github.com/pen-lang/pen">
+            <i class="fa-brands fa-github" />
+          </a>
+          <a href="https://twitter.com/pen_language">
+            <i class="fa-brands fa-twitter" />
+          </a>
         </div>
       </header>
     );
