@@ -15,7 +15,7 @@ export class _ {
           <a href="https://github.com/pen-lang/pen">
             <i class="fa-brands fa-github" />
           </a>
-          <a href="https://github.com/pen-lang/pen">
+          <a href="https://twitter.com/pen_language">
             <i class="fa-brands fa-twitter" />
           </a>
         </div>
