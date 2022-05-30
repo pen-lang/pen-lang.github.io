@@ -6,7 +6,6 @@ export class _ {
   @Element() element!: HTMLElement;
 
   componentDidLoad() {
-    console.log(this.element);
     new Router(this.element.shadowRoot?.querySelector("#router")).setRoutes([
       { path: "/", component: "app-home" },
       { path: "(.*)", component: "app-not-found" },
