@@ -12,6 +12,12 @@ export class _ {
         </h1>
         <div class="links">
           <a href="https://pen-lang.org">Documentation</a>
+          <a href="https://github.com/pen-lang/pen">
+            <i class="fa-brands fa-github" />
+          </a>
+          <a href="https://github.com/pen-lang/pen">
+            <i class="fa-brands fa-twitter" />
+          </a>
         </div>
       </header>
     );
