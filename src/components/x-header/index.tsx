@@ -1,6 +1,6 @@
 import { Component, h } from "@stencil/core";
 
-@Component({ tag: "app-header", styleUrl: "index.css", shadow: true })
+@Component({ tag: "x-header", styleUrl: "index.css", shadow: true })
 export class _ {
   render() {
     return (

@@ -22,7 +22,7 @@ main = \\(ctx context) none {
 }
 `;
 
-@Component({ tag: "app-poster", styleUrl: "index.css", shadow: true })
+@Component({ tag: "x-poster", styleUrl: "index.css", shadow: true })
 export class _ {
   render() {
     return (
@@ -33,7 +33,7 @@ export class _ {
           </h1>
         </div>
         <div>
-          <app-code>{exampleCode}</app-code>
+          <x-code>{exampleCode}</x-code>
         </div>
       </div>
     );
