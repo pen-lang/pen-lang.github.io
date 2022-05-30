@@ -1,1 +1,0 @@
-import{r,h as o}from"./p-d4e1c161.js";const e=class{constructor(o){r(this,o)}render(){return o("div",{class:"container"},o("p",null,"Hello, world!"))}};e.style=".container{padding:1rem}";export{e as app_home}

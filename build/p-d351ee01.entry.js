@@ -1,0 +1,1 @@
+import{r,h as e}from"./p-4e7601eb.js";const s=class{constructor(e){r(this,e)}render(){return e("div",{class:"container"},e("x-poster",null))}};s.style=".container{padding:1rem}";export{s as x_home}
