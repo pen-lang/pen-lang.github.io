@@ -14,7 +14,7 @@
     "@types/jest": "^28.1.1",
     "@vaadin/router": "^1.7.4",
     "jest": "^28.1.0",
-    "jest-cli": "^28.1.0",
+    "jest-cli": "^28.1.1",
     "puppeteer": "^14.2.1"
   }
 }
