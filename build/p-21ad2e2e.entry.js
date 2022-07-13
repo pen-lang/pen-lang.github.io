@@ -1,0 +1,1 @@
+import{r,h as e}from"./p-8946ede3.js";const o=class{constructor(e){r(this,e)}render(){return e("pre",null,e("code",null,e("slot",null)))}};o.style="";export{o as x_code}
