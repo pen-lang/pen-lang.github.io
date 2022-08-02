@@ -10,7 +10,7 @@
     "generate": "stencil generate"
   },
   "devDependencies": {
-    "@stencil/core": "2.17.1",
+    "@stencil/core": "2.17.2",
     "@types/jest": "^28.1.6",
     "@vaadin/router": "^1.7.4",
     "jest": "^28.1.3",
